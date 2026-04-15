@@ -40,3 +40,49 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+body {
+ background-color: #030026;
+ background-image: url('Fondo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: -2.67px;
+}    
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  color: #e2e2e2;
+  letter-spacing: 0.67px;
+}
+.button-canal {
+  background-color: #000000; 
+  color: #ffffff;            
+  border: none;              
+  padding: 10px 20px;        
+  font-size: 16px;           /* Tamaño de fuente */
+  font-weight: bold;         /* Grosor de fuente */
+  border-radius: 5px;        /* Bordes redondeados */
+  cursor: pointer;           /* Puntero */
+  transition: all 0.3s ease; /* Transición suave */
+  position: relative;        /* Posición relativa */
+}
+
+.button-canal:hover {
+  background-color: #333333; /* Color al pasar el mouse */
+  transform: translateY(-2px); /* Pequeño salto */
+}
